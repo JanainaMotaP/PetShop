@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <header class="cabecalho">
+     <img class= "cabecalho-imagem" src="logo.png" width="100" alt="logo da JannaPet"> 
+        <nav class="menu"> 
+            <a class="menu-item" href="JANNASPET.html"> Home </a>
+            <a class="menu-item" href="loja.html"> Loja </a>
+            <a class="menu-item" href="agenda.html">  Agenda</a>
+            <a class="menu-item" href="adoção.html"> Adoção</a>
+            <a class="menu-item" href="contato.html"> Contato</a>
+        </header>
+        
+        </nav>
+</head> <br>
+<body class="body-agenda">
+    <h1>Bem vindo ao espaço de agendamento!</h1> 
+    <p> <strong>Por aqui você consegue marcar horário de banho, tosa e consulta conosco.</strong></p> <br>
+    <h2>AGOSTO 2022</h2>
+    <p> <strong> dias em branco representam nossos dias disponíveis no mês de Agosto. </strong> </p>
+
+    <table border="DOM" class="linha-principal">
+        <tr class="linha-um"><th>DOM</th> <th>SEG</th> <th>TER</th> <th>QUA</th> <th>QUI</th> <th>SEX</th> <th>SAB</th></tr>
+        <tr class="linha"><th></th> <th class="DOM">01</th> <th>02</th> <th>03</th> <th class="DOM">04</th> <th>05</th> <th>06</th></tr>
+        <tr class="linha"><th class="DOM">07</th> <th class="SEG">08</th> <th>09</th> <th class="DOM">10</th> <th>11</th> <th>12</th> <th>13</th></tr>
+        <tr class="linha"><th class="DOM">14</th> <th class="SEG">15</th> <th>16</th> <th class="DOM">17</th> <th>18</th> <th>19</th> <th>20</th></tr>
+        <tr class="linha"><th class="DOM">21</th> <th class="SEG">22</th> <th>23</th> <th>24</th> <th>25</th> <th>26</th> <th>27</th></tr>
+        <tr class="linha"><th class="DOM">28</th> <th class="SEG">29</th> <th>30</th> <th>31</th></tr>
+    </table> <br>
+
+    <div>
+    <h3>FORMULÁRIO</h3>
+    <p> <strong>Caso queira marcar horario conosco, preencha o formulário com as informações solicitadas e entraremos em contato.</strong> </p>
+    <br>
+</div>
+
+<form>
+    <div>
+        <label for="name"> Seu Nome: </label> 
+        <input type="text" id="nome" name="nome"> 
+        <label for="nomePet"> Nome do Pet: </label>
+        <input type="text" id="nomePet" name="pet"> <br> <br>
+        <label for="tel">Contato:</label>
+        <input type="tel" id="contato"  required placeholder="(xx) xxxxx-xxxx"> <br> <br>
+        
+      <label for="festa">Escolha a data para atendimento:</label> <br>
+      <input type="date" id="atendimento" name="festa" min="2022-08-01" max="2022-08-31" required> <br>
+      <span class="validity"></span> <br>
+    </div>
+    <div>
+      <input type="submit">
+    </div>
+  </form> <br> <br> <br> <br>
+
+  <footer class="rodape">
+    <nav>
+        <a href="JANNASPET.html"> Quem Somos</a> <br> <br>
+        <a href="contato.html"> Fale Conosco</a> <br> <br>
+        <a href="adoção.html">  Adoção</a> <br> <br>
+        <a href="agenda.html"> Agendamento</a>
+    </nav>
+    
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
